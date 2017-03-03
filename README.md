@@ -1,10 +1,9 @@
 # Donate-Page
 
-这是一系列整理好的捐赠按钮样式。
+jquery动态捐赠按钮(修改版)：小尺寸直角/阴影边框/中文赏字
+另_s后缀名为侧边栏使用的蓝字固定样式，效果详见[羽中漫步](http://www.yzmb.me)
 
-[Simple](https://github.com/Kaiyuan/donate-page/tree/gh-pages/simple)
-
-<video class="share-video" id="share-video" poster="https://thumbs.gfycat.com/TatteredAlarmingCopperhead-poster.jpg" autoplay="" muted="" loop=""><source id="webmSource" src="https://zippy.gfycat.com/TatteredAlarmingCopperhead.webm" type="video/webm"><source id="mp4Source" src="https://zippy.gfycat.com/TatteredAlarmingCopperhead.mp4" type="video/mp4"><img title="Sorry, your browser doesn't support HTML5 video." src="https://i.imgur.com/yNz5vJc.gif"></video>
+特别感谢[原版](https://github.com/Kaiyuan/donate-page/)大大分享！
 ---
 
 ### License
