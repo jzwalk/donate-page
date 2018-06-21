@@ -9,13 +9,14 @@ html, html>body {
 	-webkit-font-smoothing:antialiased;
 	line-height: 1.8em;
 	text-shadow: 0 0 1px rgba(255,255,255,0.1);
-	background: #101010;
 	position: absolute;
-	top: 1750px;
-	left: 436px;
+	top: 214px;
+	left: 150px;
 }
-.donateMe img {border-width: 0px;}
-.donateMe a{
+.donateMe img {
+	border-width: 0;
+}
+.donateMe a {
 	color: #000;
 	text-decoration: none;
 	outline:none;
@@ -24,8 +25,8 @@ html, html>body {
 .list, .list li, .list-left li {
 	list-style: none;
 	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 .pos-f {
 	position: absolute;
@@ -49,10 +50,10 @@ html, html>body {
 	height: 66px;
 	line-height: 49px;
 	color: #fff;
-	background: #70b9ed;
+	background: #ffab56;
 	background-size: 50px;
 	text-align: center;
-	left: calc(50% - 95px);
+	left: calc(50% - 102px);
 	top: calc(50% - 59px);
 	z-index: 1;
 	transform: rotatez(-15deg);
@@ -61,19 +62,21 @@ html, html>body {
 	left: calc(50% - 150px);
 	top: calc(50% - 15px);
 	background-color: #fff;
-	border: 1px solid #ccc;
-	width: 275px;
+	border: 1px solid #ddd;
+	width: 255px;
 	height: 28px;
-	margin:0px;
-	padding:0px;
 	float: left;
 	z-index: 5;
+	-moz-box-shadow:0 0 8px #C2C2C2;
+	-webkit-box-shadow:0 0 8px #C2C2C2;
+	box-shadow:0 0 8px #C2C2C2;
+	filter:progid:DXImageTransform.Microsoft.DropShadow(OffX=0,OffY=0,Color=#C2C2C2,Positive=true);
 }
 #donateBox li {
-	width: 68px;
+	width: 63px;
 	float: left;
 	text-align: center;
-	border-left: 1px solid #ccc;-moz-box-shadow:0px 0px 8px rgba(0, 0, 0, 0.4);-webkit-box-shadow:0px 0px 8px rgba(0, 0, 0, 0.4);box-shadow:0px 0px 8px rgba(0, 0, 0, 0.4);
+	border-left: 1px solid #ddd;
 	background: no-repeat center center;
 	background-color: rgba(204, 217, 220,0.1);
 	background-size: 45px;
@@ -122,6 +125,7 @@ html, html>body {
 	top: 0;
 	left: 0;
 	z-index: 5;
+	background-color: rgba(255,255,255,0.3);
 	display: none;
 	perspective: 400px;
 }
@@ -131,16 +135,19 @@ html, html>body {
 	text-align: center;
 	width: 200px;
 	height: 200px;
-	left: calc(50% - 111px);
-	top: calc(50% - 100px);
+	left: calc(50% - 121px);
+	top: calc(50% - 126px);
 	background: #fff no-repeat center center;
 	background-size: 190px;
-	box-shadow: 0px 2px 7px rgba(0,0,0,0.3);
 	opacity: 0;
 	transition: all 1s ease-in-out;
 	transform-style: preserve-3d;
 	transform-origin: center center;
 	overflow: hidden;
+	-moz-box-shadow: 0 2px 7px #C2C2C2;
+	-webkit-box-shadow: 0 2px 7px #C2C2C2;
+	box-shadow: 0 2px 7px #C2C2C2;
+	filter:progid:DXImageTransform.Microsoft.DropShadow(OffX=0,OffY=2,Color=#C2C2C2,Positive=true);
 }
 #btc-key {
 	opacity: 0;
@@ -153,7 +160,7 @@ html, html>body {
 #github {
 	width: 24px;
 	height: 24px;
-	left: calc(50% + 115px);
+	left: calc(50% + 95px);
 	top: calc(50% - 29px);
 	background: no-repeat center center url(images/github.svg);
 	background-size: contain;
